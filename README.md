@@ -1,7 +1,7 @@
 # Dell Latitude E-Series Skylake Hackintosh
 This repo contains all the fixes for Skylake CPU Model on macOS.
 
-I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is worked on other Dell Skylake E-Series Models.
+I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is working on other Dell Skylake E-Series Models.
 
 **My laptop specification:**
 
@@ -35,10 +35,10 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 Everything is work...
 
 # What's not working or BUGs?
-Hmmm... I can't found any BUGs and things aren't working.
+Hmmm... I can't find any BUGs and things aren't working.
 
 # Note (You might read this carefully for having better Hackintosh laptop.)
-**Serial Number:**
+**Serial Number:** 
 
 **Touchscreen:** I added VoodooI2C to take advantage of the touchscreen display. However, it is disabled. If you have this model, you may enable `VoodooI2C.kext` and its-related kexts in config. You may refer this [image]()
 
