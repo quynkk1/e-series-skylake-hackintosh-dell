@@ -53,7 +53,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 *Note: If you use macOS Monterey 12.x, you MUST ENABLE `BlueToolFixup.kext` and leave `IntelBluetoothInjector.kext` DISABLE.*
 
-You can [click here to see these image]() here if you confuse what you should choose.
+You can [click here to check your config with these image]() if you confuse what you should choose.
 
 - **Broadcom Chipset Wireless User:** I have created this post for user who have Broadcom Wireless Chipset Adapter. [See here]() for more detail.
 
