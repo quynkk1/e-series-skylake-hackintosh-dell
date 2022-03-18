@@ -67,6 +67,7 @@ You can [click here to see these image]() here if you confuse what you should ch
 
 # How do I install macOS?
 **You have 2 options:**
+
 Option 1: [Online install.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) It may take a long time to install. Use this method when you have USB lower than 8GBs.
 
 Option 2: [Offline install.]() This method requires you have USB larger than 8GBs (Recommended 16GB at least).
