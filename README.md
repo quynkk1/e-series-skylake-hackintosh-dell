@@ -76,6 +76,7 @@ Option 2: [Offline install.]() This method requires you have USB larger than 8GB
 
 # Screenshot
 ![Scrn](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Image.jpeg)
+![Scrn2](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Image%202.png)
 
 # Special thanks to
 - [Dortania](https://github.com/dortania) for [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and bootloader
