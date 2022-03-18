@@ -53,19 +53,21 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 *Note: If you use macOS Monterey 12.x, you MUST ENABLE `BlueToolFixup.kext` and leave `IntelBluetoothInjector.kext` DISABLE.*
 
-You can [click here to see these image]() here if you confuse what you should choose.
+You can [click here to check your config with these image]() if you confuse what you should choose.
 
 - **Broadcom Chipset Wireless User:** I have created this post for user who have Broadcom Wireless Chipset Adapter. [See here]() for more detail.
 
 - **USB:** You need to manually map your USB for better usage. [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
 *Note: If you want to install macOS 11.2.3 or lower version, leave quirk `XHCIPortLimit` in config enable.* 
-![Picture](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit.png)
+![XHCIPort](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit.png)
+![XHCIPortPT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit-ProperTree.png)
 
 - **Optimizing Power Management:** CPUFriend will help you. [See here](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
 # How do I install macOS?
 **You have 2 options:**
+
 Option 1: [Online install.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) It may take a long time to install. Use this method when you have USB lower than 8GBs.
 
 Option 2: [Offline install.]() This method requires you have USB larger than 8GBs (Recommended 16GB at least).
