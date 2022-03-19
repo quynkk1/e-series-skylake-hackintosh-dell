@@ -55,7 +55,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 You can [click here to check your config with these image]() if you confuse what you should choose.
 
-- **Broadcom Chipset Wireless User:** I have created this post for user who have Broadcom Wireless Chipset Adapter. [See here]() for more detail.
+- **Broadcom Chipset Wireless User:** I have created this post for user who have Broadcom Wireless Chipset Adapter. [See here](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md) for more detail.
 
 - **USB:** You need to manually map your USB for better usage. [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
