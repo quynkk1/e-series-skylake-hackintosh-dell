@@ -47,7 +47,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 - **Serial Number:**
 
-- **Touchscreen:** I added VoodooI2C to take advantage of the touchscreen display. However, it is disabled. If you have this model, you may enable `VoodooI2C.kext` and its-related kexts in config. You may refer [this image]()
+- **Touchscreen:** I added VoodooI2C to take advantage of the touchscreen display. However, it is disabled. If you have this model, you may enable `VoodooI2C.kext` and its-related kexts in config. You may refer [this image](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Touchscreen-user-picture.md)
 
 - **Intel Chipset Wireless User:** I also added `AirportItlwm.kext` but it only supported macOS Big Sur and disabled. If you have later/previous version of macOS, go to [this link](https://github.com/OpenIntelWireless/itlwm/releases), select your `AirportItlwm.kext` depend on your OS, replace your `AirportItlwm.kext` in OC/Kext and enable 3 kexts:`AirportItlwm.kext`, `IntelBluetoothFirmware.kext` and `IntelBluetoothInjector.kext` in config.
 
