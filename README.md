@@ -23,10 +23,10 @@ Bootloader: OpenCore 0.8.0
 
 | Model | CPU Name | Is that supported ? | Note |
 | ---- | ------ | ------ | ----- |
-| E5470 |  i5-6300U | Need testing. | -/- |
+| E5470 |  ? | Need testing. | -/- |
 | E5570 |  i3-6100U | **Yes** | 1 |
-| E7270 |  i5-6300U | Need testing. | -/- |
-| E7470 |  i5-6300U | Need testing. | -/- |
+| E7270 |  ? | Need testing. | -/- |
+| E7470 |  ? | Need testing. | -/- |
 
 1: Disable your dGPU (If you have) with a [SSDT](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html)
 
