@@ -25,7 +25,7 @@ Bootloader: OpenCore 0.8.1 - Updated 29/6/2022
 | ---- | ------ | ------ | ----- |
 | E5470 |  ? | Need testing. | -/- |
 | E5570 |  i3-6100U | **Yes** | 1 |
-| E7270 |  ? | Need testing. | -/- |
+| E7270 |  i5-6200U | **Yes** | -/- |
 | E7470 |  ? | Need testing. | -/- |
 
 1: Disable your dGPU (If you have) with a [SSDT](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html)
