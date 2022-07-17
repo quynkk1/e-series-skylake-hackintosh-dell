@@ -33,8 +33,8 @@ Bootloader: OpenCore 0.8.1 - Cập nhật 29/6/2022
 ** Lưu ý: Danh sách này chưa được hoàn chỉnh. Nếu bạn có kiểu máy tương thích và nó hoạt động khi dùng EFI của tôi, vui lòng xác nhận. **
 
 - Hai hình ảnh dưới đây liệt kê những SSDT và bản vá lỗi mà tôi đã sử dụng.
-! [ACPI-SSDT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/ACPI/ACPI-SSDTs.png)
-! [ACPI-Patches](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/ACPI/ACPI-Patches.png)
+![ACPI-SSDT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/ACPI/ACPI-SSDTs.png)
+![ACPI-Patches](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/ACPI/ACPI-Patches.png)
 
 # Điều gì đang hoạt động?
 Mọi thứ đều hoạt động ...
