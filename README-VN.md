@@ -54,8 +54,8 @@ Hmmm ... Tôi không thể tìm thấy bất kỳ lỗi nào và mọi thứ kh�
 - **USB:** Bạn cần map USB của mình theo cách thủ công để sử dụng tốt hơn. [USB Mapping Guide của Dortania](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
 *Lưu ý: Nếu bạn muốn cài đặt macOS 11.2.3 hoặc phiên bản thấp hơn, hãy để nguyên `XHCIPortLimit` trong kích hoạt cấu hình.*
-! [XHCIPort](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit.png)
-! [XHCIPortPT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit-ProperTree.png)
+![XHCIPort](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit.png)
+![XHCIPortPT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit-ProperTree.png)
 
 - **Tối ưu hóa Quản Lí Hiệu Năng:** CPUFriend sẽ giúp bạn. [Xem tại đây](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
