@@ -47,20 +47,20 @@ Hmmm ... Tôi không thể tìm thấy bất kỳ lỗi nào và mọi thứ kh�
 
 - **Số seri:**
 
-- ** Màn hình cảm ứng: ** Tôi đã thêm VoodooI2C để dùng màn hình cảm ứng. Tuy nhiên, nó đã bị vô hiệu hóa. Nếu bạn có loại máy này, bạn có thể kích hoạt `VoodooI2C.kext` và các kexts liên quan đến nó trong config.plist . Bạn có thể tham khảo [hình ảnh này](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Touchscreen-user-picture.md)
+- **Màn hình cảm ứng:** Tôi đã thêm VoodooI2C để dùng màn hình cảm ứng. Tuy nhiên, nó đã bị vô hiệu hóa. Nếu bạn có loại máy này, bạn có thể kích hoạt `VoodooI2C.kext` và các kexts liên quan đến nó trong config.plist . Bạn có thể tham khảo [hình ảnh này](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Touchscreen-user-picture.md)
 
 - **Card wifi:** Bạn check tại đây : [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Atheros Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md)
 
-- ** USB: ** Bạn cần map USB của mình theo cách thủ công để sử dụng tốt hơn. [USB Mapping Guide của Dortania](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
+- **USB:** Bạn cần map USB của mình theo cách thủ công để sử dụng tốt hơn. [USB Mapping Guide của Dortania](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
-* Lưu ý: Nếu bạn muốn cài đặt macOS 11.2.3 hoặc phiên bản thấp hơn, hãy để nguyên `XHCIPortLimit` trong kích hoạt cấu hình. *
+*Lưu ý: Nếu bạn muốn cài đặt macOS 11.2.3 hoặc phiên bản thấp hơn, hãy để nguyên `XHCIPortLimit` trong kích hoạt cấu hình.*
 ! [XHCIPort](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit.png)
 ! [XHCIPortPT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit-ProperTree.png)
 
-- ** Tối ưu hóa Quản Lí Hiệu Năng: ** CPUFriend sẽ giúp bạn. [Xem tại đây](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
+- **Tối ưu hóa Quản Lí Hiệu Năng:** CPUFriend sẽ giúp bạn. [Xem tại đây](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
 # Làm cách nào để cài đặt macOS?
-** Bạn có 2 tùy chọn: **
+**Bạn có 2 tùy chọn:**
 
 Tùy chọn 1: [Cài đặt online.](Https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) Có thể mất nhiều thời gian để cài đặt. Sử dụng phương pháp này khi bạn có USB dưới 8GB hoặc bạn chỉ thư giãn trong thời gian rảnh rỗi, lmao 🐸.
 
