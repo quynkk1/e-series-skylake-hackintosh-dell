@@ -75,3 +75,5 @@ Tùy chọn 2: [Cài đặt offline.]() Phương pháp này yêu cầu bạn có
 # Rất cảm ơn:
 - [Dortania](https://github.com/dortania) vì [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) và bootloader
 - [Acidanthera](https://github.com/acidanthera), [SkyrilHD](https://github.com/SkyrilHD) và các lập trình viên khác vì đã cung cấp cho tôi rất nhiều kext.
+- [NLTD2010](https://github.com/NLTD2010) vì bản dịch tv ngu ngốc này.
+- [Tôi](https://github.com/quynkk1) vì đã tạo ra cái EFI này lmao =) .
