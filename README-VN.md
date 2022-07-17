@@ -30,7 +30,7 @@ Bootloader: OpenCore 0.8.1 - Cập nhật 29/6/2022
 
 1: Tắt dGPU của bạn (Nếu bạn có) bằng [SSDT](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html)
 
-** Lưu ý: Danh sách này chưa được hoàn chỉnh. Nếu bạn có kiểu máy tương thích và nó hoạt động khi dùng EFI của tôi, vui lòng xác nhận. **
+**Lưu ý: Danh sách này chưa được hoàn chỉnh. Nếu bạn có kiểu máy tương thích và nó hoạt động khi dùng EFI của tôi, vui lòng xác nhận.**
 
 - Hai hình ảnh dưới đây liệt kê những SSDT và bản vá lỗi mà tôi đã sử dụng.
 ![ACPI-SSDT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/ACPI/ACPI-SSDTs.png)
@@ -43,7 +43,7 @@ Mọi thứ đều hoạt động ...
 Hmmm ... Tôi không thể tìm thấy bất kỳ lỗi nào và mọi thứ không hoạt động.
 
 # Một số phần khác:
-> ** ⚠️ CẢNH BÁO: BẠN PHẢI ĐỌC KỸ PHẦN NÀY! **
+> **⚠️ CẢNH BÁO: BẠN PHẢI ĐỌC KỸ PHẦN NÀY!**
 
 - **Số seri:**
 
