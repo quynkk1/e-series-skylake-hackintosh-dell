@@ -47,7 +47,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 - **Serial Number:**
 
-- **Touchscreen:** I added VoodooI2C to take advantage of the touchscreen display. However, it is disabled. If you have this model, you may enable `VoodooI2C.kext` and its-related kexts in config. You may refer [this image](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Touchscreen-user-picture.md)
+- **Touchscreen:** [Use VoodooI2C with patched SSDT, see here]()
 
 - **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Atheros Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md)
 
