@@ -1,5 +1,7 @@
 # Dell Latitude E-Series Skylake Hackintosh
-This repo contains all the fixes for Skylake CPU Model on macOS.
+This repository contains all the fixes for Skylake CPU Model on macOS.
+
+For Vietnamese User: [You can read the transate from here 🇻🇳](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/README-VN.md)
 
 I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is working on other Dell Skylake E-Series Models.
 
@@ -19,7 +21,8 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | macOS Installed | macOS Monterey 12.4 | |
 
 # EFI Compatibily List:
-Bootloader: OpenCore 0.8.1 - Updated 29/6/2022
+Bootloader: OpenCore 0.8.2
+
 
 | Model | CPU Name | Is that supported ? | Note |
 | ---- | ------ | ------ | ----- |
@@ -45,17 +48,13 @@ Hmmm... I can't find any BUGs and things aren't working.
 # Other things:
 > **⚠️ WARNING: YOU MUST READ CAREFULLY THIS SECTION!**
 
-- **Serial Number:**
+- **Serial Number:** [You need to manually generate your S.N. Read this guide: How to generate your S.N]()
 
-- **Touchscreen:** [Use VoodooI2C with patched SSDT, see here]()
+- **Touchscreen:** Use VoodooI2C with patched SSDT. [Read this section]()
 
 - **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Atheros Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md)
 
 - **USB:** You need to manually map your USB for better usage. [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
-
-*Note: If you want to install macOS 11.2.3 or lower version, leave quirk `XHCIPortLimit` in config enable.* 
-![XHCIPort](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit.png)
-![XHCIPortPT](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/XHCIPortLimit-ProperTree.png)
 
 - **Optimizing Power Management:** CPUFriend will help you. [See here](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
@@ -66,7 +65,7 @@ Option 1: [Online install.](https://dortania.github.io/OpenCore-Install-Guide/in
 
 Option 2: [Offline install.]() This method requires you have USB larger than 8GB (Recommend 16GB at least).
 
-- All you need is download EFI and copy it into your EFI Partition in your USB.
+- All you need is download this EFI from Release tab and copy it into your EFI Partition in your USB.
 
 # Screenshot
 ![SCS1](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Image.jpeg)
