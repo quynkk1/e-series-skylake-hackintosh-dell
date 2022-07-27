@@ -18,7 +18,7 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Wireless | Dell Wireless DW1820A | BCM94350 |
 | Bluetooth | Dell Wireless DW1820A | BCM94350_C2 |
 | Card Reader | Realtek RTS525A |  |
-| macOS Installed | macOS Monterey 12.4 | |
+| macOS Installed | macOS Monterey 12.5 | macOS Ventura (13.x) will support soon. |
 
 # EFI Compatibily List:
 Bootloader: OpenCore 0.8.2
