@@ -1,7 +1,7 @@
 # Dell Latitude E-Series Skylake Hackintosh
 This repository contains all the fixes for Skylake CPU Model on macOS.
 
-For Vietnamese User: [You can read the transate from here 🇻🇳](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/README-VN.md)
+For Vietnamese User: [You can read the transale from here 🇻🇳](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/README-VN.md)
 
 I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is working on other Dell Skylake E-Series Models.
 
