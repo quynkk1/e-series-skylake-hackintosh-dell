@@ -18,7 +18,7 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Wireless | Dell Wireless DW1820A | BCM94350 |
 | Bluetooth | Dell Wireless DW1820A | BCM94350_C2 |
 | Card Reader | Realtek RTS525A |  |
-| macOS Installed | macOS Monterey 12.4 | |
+| macOS Installed | macOS Monterey 12.5 | macOS Ventura (13.x) will support soon. |
 
 # EFI Compatibily List:
 Bootloader: OpenCore 0.8.2
@@ -52,13 +52,16 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 - **Touchscreen:** Use VoodooI2C with patched SSDT. [Read this section]()
 
-- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Atheros Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Wireless-Broadcom-User.md)
+- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel Wireless User]()
 
 - **USB:** You need to manually map your USB for better usage. [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
 - **Optimizing Power Management:** CPUFriend will help you. [See here](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
 # How do I install macOS?
+
+- You should change your BIOS: [BIOS Setting Guide](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/BIOS.md)
+
 **You have 2 options:**
 
 Option 1: [Online install.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) It may take a long time to install. Use this method when you have USB lower than 8GB or you just chill in your free time, lmao 🐸.
