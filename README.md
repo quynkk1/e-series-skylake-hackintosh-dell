@@ -50,9 +50,9 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 - **Serial Number:** [You need to manually generate your S.N. Read this guide: How to generate your S.N]()
 
-- **Touchscreen:** Use VoodooI2C with patched SSDT. [Read this section]()
+- **Touchscreen:** ~~Use VoodooI2C with patched SSDT.~~ [I will support soon! This tutorial is not available.]()
 
-- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel Wireless User]()
+- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Intel.md)
 
 - **USB:** You need to manually map your USB for better usage. [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
