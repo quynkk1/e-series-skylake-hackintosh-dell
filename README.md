@@ -59,6 +59,9 @@ Hmmm... I can't find any BUGs and things aren't working.
 - **Optimizing Power Management:** CPUFriend will help you. [See here](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
 # How do I install macOS?
+
+- You should change your BIOS: [BIOS Setting Guide](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/BIOS.md)
+
 **You have 2 options:**
 
 Option 1: [Online install.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) It may take a long time to install. Use this method when you have USB lower than 8GB or you just chill in your free time, lmao 🐸.
