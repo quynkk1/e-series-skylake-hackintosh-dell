@@ -62,7 +62,7 @@ If you are using macOS Big Sur (11.x) and below, enable 3 kexts: `BrcmBluetoothI
 
 ![Kernel-Blt-BCM-BS](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-BCM-BLT.png)
 
-If you are using macOS Monterey (12.x), enable 3 kexts: `BlueToolFixup.kext` ; `BrcmFirmwareData.kext` ; `BrcmPatchRAM3.kext` and MAKE SURE `BrcmBluetoothInjector.kext` IS DISABLE/NOT APPEAR.
+If you are using macOS Monterey (12.x), enable 3 kexts: `BlueToolFixup.kext` ; `BrcmFirmwareData.kext` ; `BrcmPatchRAM3.kext` and MAKE SURE `BrcmBluetoothInjector.kext` IS DISABLED/NOT APPEARED.
 
 ![Kernel-Blt-BCM-BS](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-BCM-BLT-M.png)
 
