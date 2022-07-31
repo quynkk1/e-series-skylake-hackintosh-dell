@@ -15,7 +15,7 @@ Nếu card WiFi của bạn không có trong danh sách thì làm theo hướng 
 
 **Step 1: Tìm đường dẫn PCI của card WiFi qua Hackintool và thêm nó vào config.plist phần > `DeviceProperties`**
 
-> Example: Ví dụ đường dẫn Pci của DW1820A (Tôi đã thay card) là `PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)` và kiểm tra bạn đã thêm đường dẫn như bên dưới chưa.
+> Zí Zụ : Ví dụ đường dẫn Pci của DW1820A (Tôi đã thay card) là `PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)` và kiểm tra bạn đã thêm đường dẫn như bên dưới chưa.
 
 Mở Hackintool, chọn tab `PCIe`, tìm card wifi của bạn, nhấp chuột phải vào nó và bấm vào `Copy Device Path`
 
