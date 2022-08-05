@@ -77,3 +77,4 @@ Option 2: [Offline install.]() This method requires you have USB larger than 8GB
 # Special thanks to
 - [Dortania](https://github.com/dortania) for [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and bootloader
 - [Acidanthera](https://github.com/acidanthera), [SkyrilHD](https://github.com/SkyrilHD) and other developers for many kext I used.
+- [NLTD2010](https://github.com/NLTD2010) for VietNamese Readme translate.
