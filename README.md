@@ -22,7 +22,7 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | macOS Installed | macOS Monterey 12.5 | macOS Ventura (13.x) will support soon. |
 
 # EFI Compatibily List:
-Bootloader: OpenCore 0.8.2
+Bootloader: OpenCore 0.8.3 (Updated)
 
 
 | Model | CPU Name | Is that supported ? | Note |
