@@ -15,6 +15,7 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Memory | 2 x 8GB Samsung DDR4 |  |
 | Storage | NVME Hynix 250GB |  |
 | Ethernet | Intel Ethernet I219-LM |  |
+| Audio Chipset | Realtek ALC293 |  |
 | Wireless | Dell Wireless DW1820A | BCM94350 |
 | Bluetooth | Dell Wireless DW1820A | BCM94350_C2 |
 | Card Reader | Realtek RTS525A |  |
