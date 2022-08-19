@@ -1,34 +1,34 @@
-# Intel Wireless Tutorial
+# Hướng dẫn cho WiFi Intel
 
-If you are using Intel Wireless Chipset, follow instrucment below:
+Nếu bạn dùng card WiFi Intel, làm theo hướng dẫn bên dưới:
 
-**Step 1: Enable Wi-fi Extension**
+**Bước 1: Bật Kext WiFi**
 
-Open `config.plist` and heading to `Kernel` section, you might look up for `AirPortItlwm.kext`. Tick `Enable` for this kernel extension.
+Mở `config.plist` và vào phần `Kernel` , Bạn hãy tìm kext `AirPortItlwm.kext`. Tick vào nút `Enable` cho kext này.
 
-> `AirPortItlwm.kext` in this EFI I used macOS Monterey (12.x) version. You may download and replace with compatible version, depend on what version of macOS you want to use.
+> `AirPortItlwm.kext` trong EFI này, tôi đã sử dụng phiên bản dành cho macOS Monterey (12.x). Bạn có thể tải xuống và thay thế bằng phiên bản tương thích, tùy thuộc vào phiên bản macOS bạn muốn sử dụng.
 
-> [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) : you can find your compatible version of your macOS here.
+> [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) : bạn có thể tìm thấy kext dành cho phiên bản macOS tương thích của mình tại đây.
 
 ![Kernel-Itlwm](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-Itlwm.png)
 
-**Step 2: Enable Bluetooth Extension**
+**Bước 2: Bật Kext Bluetooth**
 
-- For macOS Big Sur (11.x) and lower (Apply for Catalina 10.15.x/Mojave 10.14.x):
+- Đối với macOS Big Sur (11.x) trở xuống (Áp dụng cho Catalina 10.15.x / Mojave 10.14.x):
 
-Still in `Kernel` section, you might look up for `IntelBluetoothFirmware.kext` and `IntelBluetoothInjector.kext`. Tick `Enable` for that kernel extension.
+Trong phần `Kernel` , Bạn hãy tìm `IntelBluetoothFirmware.kext` và `IntelBluetoothInjector.kext`. Tick `Enable` cho các kext đó.
 
 ![Kernel-Itlwm-BLT-11](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-BLT-Itlwm-BS.png)
 
-- For macOS Monterey (12.x):
+- Đối với macOS Monterey (12.x):
 
-Still in `Kernel` section, you might look up for `BlueToolFixup.kext` and `IntelBluetoothInjector.kext`. Tick `Enable` for that kernel extension.
+Trong phần `Kernel`, Bạn hãy tìm `BlueToolFixup.kext` và `IntelBluetoothInjector.kext`. Tick `Enable` cho các kext đó.
 
 ![Kernel-Itlwm-BLT-12](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-BLT-Itlwm-12.png)
 
-**Last step: Save your `config.plist` and restart your computer.**
+**Bước cuối: Lưu lại file `config.plist` và restart máy bạn.**
 
-# Source I have used:
+# Nguồn tôi đã dùng:
 
 [Itlwm](https://github.com/OpenIntelWireless/itlwm)
 
