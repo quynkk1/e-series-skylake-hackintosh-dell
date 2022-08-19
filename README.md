@@ -22,8 +22,7 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | macOS Installed | macOS Monterey 12.5 | macOS Ventura (13.x) will support soon. |
 
 # EFI Compatibily List:
-Bootloader: OpenCore 0.8.3 (Updated)
-
+Bootloader: OpenCore 0.8.3
 
 | Model | CPU Name | Is that supported ? | Note |
 | ---- | ------ | ------ | ----- |
@@ -50,8 +49,6 @@ Hmmm... I can't find any BUGs and things aren't working.
 > **⚠️ WARNING: YOU MUST READ CAREFULLY THIS SECTION!**
 
 - **Serial Number:** [You need to manually generate your S.N. Read this guide: How to generate your S.N]()
-
-- **Touchscreen:** ~~Use VoodooI2C with patched SSDT.~~ [I will support soon! This tutorial is not available.]()
 
 - **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Intel.md)
 
