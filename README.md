@@ -10,16 +10,20 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Model  | Dell Latitude E5570 | Note |
 | ------------- | ------------- | --------|
 | CPU | Intel Core i3-6100U (Skylake) 2.30 GHz | |
-| iGPU | Intel HD Graphics 520  | |
-| dGPU | AMD R7 M370 2GB  |I don't have this GPU |
+| iGPU | Intel HD Graphics 520 | |
+| dGPU | AMD R7 M370 2GB | Only available in i5/i7 Model |
 | Memory | 2 x 8GB Samsung DDR4 |  |
-| Storage | NVME Hynix 250GB |  |
+| Storage (nVME) | SK hynix BC501 HFM256GDJTNG-8310A 250GB |  |
+| Storage (SATA) | Samsung SSD 750 EVO 120GB |  |
 | Ethernet | Intel Ethernet I219-LM |  |
 | Audio Chipset | Realtek ALC293 |  |
+| Wireless (Old) | Intel Wireless AC 7260 |  |
 | Wireless | Dell Wireless DW1820A | BCM94350 |
 | Bluetooth | Dell Wireless DW1820A | BCM94350_C2 |
 | Card Reader | Realtek RTS525A |  |
-| macOS Installed | macOS Monterey 12.5 | macOS Ventura (13.x) will support soon. |
+| macOS Installed | macOS Monterey 12.5 | [macOS Ventura (13.x)](https://www.apple.com/macos/macos-ventura-preview/features/) will support soon. |
+
+⚠️: If you about to install macOS Ventura (13.x), iGPU will not get best performance. Take your own risk.
 
 # EFI Compatibily List:
 Bootloader: OpenCore 0.8.3
