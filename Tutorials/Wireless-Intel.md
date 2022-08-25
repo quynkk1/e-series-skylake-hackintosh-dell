@@ -12,6 +12,10 @@ Open `config.plist` and heading to `Kernel` section, you might look up for `AirP
 
 ![Kernel-Itlwm](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-Itlwm.png)
 
+If you are using macOS Catalina or previous version of macOS, you should enable `Force load IO80211Family to load` in `Kernel > Force` to get this kernel extension working.
+
+![Kernel-IO80211](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-FLIO80211.png)
+
 **Step 2: Enable Bluetooth Extension**
 
 - For macOS Big Sur (11.x) and lower (Apply for Catalina 10.15.x/Mojave 10.14.x):
