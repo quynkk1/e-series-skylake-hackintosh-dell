@@ -10,20 +10,20 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Model  | Dell Latitude E5570 | Note |
 | ------------- | ------------- | --------|
 | CPU | Intel Core i3-6100U (Skylake) 2.30 GHz | |
-| iGPU | Intel HD Graphics 520 | |
-| dGPU | AMD R7 M370 2GB | Only available in i5/i7 Model |
+| GPU 1 | Intel HD Graphics 520 | |
+| GPU 2 | AMD R7 M370 2GB | Only available in i5/i7 Model, and this is not supported on macOS |
 | Memory | 2 x 8GB Samsung DDR4 |  |
 | Storage (nVME) | SK hynix BC501 HFM256GDJTNG-8310A 250GB |  |
 | Storage (SATA) | Samsung SSD 750 EVO 120GB |  |
 | Ethernet | Intel Ethernet I219-LM |  |
 | Audio Chipset | Realtek ALC293 |  |
-| Wireless (Old) | Intel Wireless AC 7260 |  |
+| Wireless | Intel Wireless AC 7260 | I have replaced. |
 | Wireless | Dell Wireless DW1820A | BCM94350 |
 | Bluetooth | Dell Wireless DW1820A | BCM94350_C2 |
 | Card Reader | Realtek RTS525A |  |
-| macOS Installed | macOS Monterey 12.5 | [macOS Ventura (13.x)](https://www.apple.com/macos/macos-ventura-preview/features/) will support soon. |
+| macOS Installed | macOS Monterey 12.5 | |
 
-⚠️: If you about to install macOS Ventura (13.x), iGPU will not get best performance. Take your own risk.
+⚠️: If you about to install macOS Ventura (13.x), iGPU `Intel HD Graphics` will not get best performance.
 
 # EFI Compatibily List:
 Bootloader: OpenCore 0.8.3
@@ -52,11 +52,11 @@ Hmmm... I can't find any BUGs and things aren't working.
 # Other things:
 > **⚠️ WARNING: YOU MUST READ CAREFULLY THIS SECTION!**
 
-- **Serial Number:** [You need to manually generate your S.N. Read this guide: How to generate your S.N]()
+- **Serial Number:** [How to generate your S.N]()
 
-- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel Wireless User](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Intel.md)
+- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Intel.md)
 
-- **USB:** Enable XHCIPortLimit when you are using macOS 11.2.3 or lower. [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
+- **USB:** `Enable XHCIPortLimit when you are using macOS 11.2.3 or lower.` [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
 - **Optimizing Power Management:** CPUFriend will help you. [See here](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
