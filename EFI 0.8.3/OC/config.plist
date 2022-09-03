@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Cosmetic patch for AC Adapter</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-AC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Emulate Microsoft Windows 8.1 when booting macOS via ACOS/ACSE</string>
 				<key>Enabled</key>
 				<true/>
