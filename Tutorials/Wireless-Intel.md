@@ -12,7 +12,7 @@ Open `config.plist` and heading to `Kernel` section, you might look up for `AirP
 
 ![Kernel-Itlwm](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-Itlwm.png)
 
-If you are using macOS Catalina or previous version of macOS, you should enable `Force load IO80211Family to load` in `Kernel > Force` to get this kernel extension working.
+If you are using macOS Catalina or previous version of macOS, you should enable `Force load IO80211Family to load` in `Kernel > Force` to get this kernel extension working. For some reasons, you may install `AirPortItlwm.kext` inside `IO80211Family.kext` in `System/Library/Extension` or `Library/Extension`.
 
 ![Kernel-IO80211](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-FLIO80211.png)
 
@@ -26,7 +26,7 @@ Still in `Kernel` section, you might look up for `IntelBluetoothFirmware.kext` a
 
 - For macOS Monterey (12.x):
 
-Still in `Kernel` section, you might look up for `BlueToolFixup.kext` and `IntelBluetoothInjector.kext`. Tick `Enable` for that kernel extension.
+Still in `Kernel` section, you might look up for `BlueToolFixup.kext`, `IntelBTPatcher.kext` and `IntelBluetoothInjector.kext`. Tick `Enable` for that kernel extension.
 
 ![Kernel-Itlwm-BLT-12](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/Kernel/Kernel-BLT-Itlwm-12.png)
 
