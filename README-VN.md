@@ -45,7 +45,7 @@ Hmmm ... Tôi không thể tìm thấy bất kỳ lỗi nào và mọi thứ kh�
 # Một số phần khác:
 > **⚠️ CẢNH BÁO: BẠN PHẢI ĐỌC KỸ PHẦN NÀY!**
 
-- **Số seri:**
+- **Số seri:** : [Đọc ở đây](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#platforminfo)
 
 - **Màn hình cảm ứng:** Tôi đã thêm VoodooI2C để dùng màn hình cảm ứng. Tuy nhiên, nó đã bị vô hiệu hóa. Nếu bạn có loại máy này, bạn có thể kích hoạt `VoodooI2C.kext` và các kexts liên quan đến nó trong config.plist . Bạn có thể tham khảo [hình ảnh này](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Touchscreen-user-picture.md)
 
