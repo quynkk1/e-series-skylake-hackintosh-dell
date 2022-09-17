@@ -17,11 +17,11 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Storage (SATA) | Samsung SSD 750 EVO 120GB |  |
 | Ethernet | Intel Ethernet I219-LM |  |
 | Audio Chipset | Realtek ALC293 |  |
-| Wireless | Intel Wireless AC 7260 | I have replaced. |
+| Wireless | Intel Wireless AC 7260 | Original from manufacturer (DELL). |
 | Wireless | Dell Wireless DW1820A | BCM94350 |
 | Bluetooth | Dell Wireless DW1820A | BCM94350_C2 |
 | Card Reader | Realtek RTS525A |  |
-| macOS Installed | macOS Monterey 12.5 | |
+| macOS Installed | macOS Monterey 12.6 | |
 
 ⚠️: If you about to install macOS Ventura (13.x), iGPU `Intel HD Graphics` will not get best performance.
 
@@ -49,16 +49,23 @@ Everything is work...
 # What's not working or BUGs?
 Hmmm... I can't find any BUGs and things aren't working.
 
-# Other things:
+# Tweaking:
 > **⚠️ WARNING: YOU MUST READ CAREFULLY THIS SECTION!**
 
-- **Serial Number:** [How to generate your S.N]()
+- **1. Serial Number:** [How to generate your S.N?]()
 
-- **Wireless Adapter Configuration:** You can check here if you want: [Broadcom](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Intel.md)
+- **2. Booting and diagnose errors:** [See here.]()
 
-- **USB:** `Enable XHCIPortLimit when you are using macOS 11.2.3 or lower.` [Dortania's USB Mapping Guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
+- **3. Mapping USB:** [See here.]()
 
-- **Optimizing Power Management:** CPUFriend will help you. [See here](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
+- **4. Place OpenCore into hard drive and edit miscellaneous information in config.plist:** [See here.]()
+
+- **5. Network:** You can check here if you want: [Broadcom](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Broadcom.md), [Intel](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/Wireless-Intel.md)
+
+- **6. Optimizing Power Management:** [See here.](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
+
+- **7. Turn off CFG Lock (MSR 0xE2) for better Power Management:** [See here.]()
+
 
 # How do I install macOS?
 
