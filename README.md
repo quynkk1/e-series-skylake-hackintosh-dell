@@ -1,8 +1,6 @@
 # Dell Latitude E-Series Skylake Hackintosh
 This repository contains all the fixes for Skylake CPU Model on macOS.
 
-For Vietnamese User: [You can read the translation from here 🇻🇳](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/README-VN.md)
-
 I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is working on other Dell Skylake E-Series Models.
 
 **My laptop specification:**
@@ -52,7 +50,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 # Tweaking:
 > **⚠️ WARNING: YOU MUST READ CAREFULLY THIS SECTION!**
 
-- **1. Serial Number:** [How to generate your S.N?]()
+- **1. Serial Number:** [How to generate your S.N?](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/SN-Gen.md)
 
 - **2. Booting and diagnose errors:** [See here.]()
 
@@ -64,7 +62,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 - **6. Optimizing Power Management:** [See here.](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
-- **7. Turn off CFG Lock (MSR 0xE2) for better Power Management:** [See here.]()
+- **7. Turn off CFG Lock (MSR 0xE2) for better Power Management:** [See here.](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell)
 
 
 # How do I install macOS?
