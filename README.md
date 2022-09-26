@@ -62,7 +62,7 @@ Hmmm... I can't find any BUGs and things aren't working.
 
 - **6. Optimizing Power Management:** [See here.](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend)
 
-- **7. Turn off CFG Lock (MSR 0xE2) for better Power Management:** [See here.](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell)
+- **7. Turn off CFG Lock (MSR 0xE2) for better Power Management (⚠️: Advanced User):** [See here.](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell)
 
 
 # How do I install macOS?
