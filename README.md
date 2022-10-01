@@ -39,7 +39,7 @@ Bootloader: OpenCore 0.8.4
 
 - **1. Serial Number:** [How to generate your S.N?](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/SN-Gen.md)
 
-- **2. Booting and diagnose errors:** [BIOS Setting](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/BIOS.md) - [Diagnose Problems.]()
+- **2. Booting and diagnose errors:** [BIOS Setting](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Tutorials/BIOS.md)
 
 - **3. Mapping USB:** [See here.](https://github.com/USBToolBox/tool#usage)
 
