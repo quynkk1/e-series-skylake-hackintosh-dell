@@ -11,7 +11,7 @@ For making your Hackintosh working well when using Apple Services, I recommend y
 
 ## How do I do it ?
 
-1. Open your `config.plist` via  and go to `PlatformInfo > Generic`
+1. Open your `config.plist` via Xplist Editor and go to `PlatformInfo > Generic`
 
 ![1](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/PlatformInfo/New/SN-Gen-1.png)
 
@@ -40,3 +40,7 @@ For making your Hackintosh working well when using Apple Services, I recommend y
 ![5](https://github.com/quynkk1/e-series-skylake-hackintosh-dell/blob/main/Image/PlatformInfo/New/SN-Gen-5.png)
 
 6. After inserting all part in Step 5, save your config.
+
+## Source:
+
+- Dortania
