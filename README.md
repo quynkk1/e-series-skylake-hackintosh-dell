@@ -1,7 +1,8 @@
 # Dell Latitude E-Series Skylake Hackintosh
-This repository contains all the fixes for Skylake CPU Model on macOS.
 
-I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is working on other Dell Skylake E-Series Models.
+**⚠️: This project is discontinued, so I don't update new version of OpenCore anymore. You need to re-build this before installing macOS.**
+
+This repository contains all the fixes for Skylake CPU Model on macOS.
 
 **My laptop specification:**
 
@@ -21,6 +22,8 @@ I have made and tested this EFI on Dell Latitude E5570, but I need a confirmatio
 | Card Reader | Realtek RTS525A |  |
 
 ⚠️: If you about to install macOS Ventura (13.x), iGPU `Intel HD Graphics` will not get best performance.
+
+I have made and tested this EFI on Dell Latitude E5570, but I need a confirmation if this EFI is working on other Dell Skylake E-Series Models.
 
 # EFI Compatibily List:
 Bootloader: OpenCore 0.8.4
